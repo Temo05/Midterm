@@ -1,0 +1,12 @@
+
+<h1>Array From Parent Component</h1>
+<div *ngFor="let user of data">
+      <p>Id : {{user.id}}</p>
+      <p>{{user.FirstName}}</p>
+      <p>{{user.LastName}}</p>
+      <p>{{user.DateOfBirth}}</p>
+      <p>{{user.PhoneNumber}}</p>
+      <p>{{user.Email}}</p>
+</div>
+
+<button (click)="sendData()">Send Data to a parent Component</button>
